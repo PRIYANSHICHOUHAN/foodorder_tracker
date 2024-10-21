@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-18 13:51:01.120746",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "order_date",
+  "breakfast",
+  "lunch",
+  "dinner",
+  "fine_amount",
+  "food_consumption_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "breakfast",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Breakfast Status"
+  },
+  {
+   "fieldname": "lunch",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Lunch Status"
+  },
+  {
+   "fieldname": "dinner",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Dinner Status"
+  },
+  {
+   "fieldname": "order_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Order Date"
+  },
+  {
+   "fieldname": "fine_amount",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Fine amount"
+  },
+  {
+   "fieldname": "food_consumption_status",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Food Consumption status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-21 12:28:22.884296",
+ "modified_by": "Administrator",
+ "module": "Foodorder Tracker",
+ "name": "Employee FoodOrder",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

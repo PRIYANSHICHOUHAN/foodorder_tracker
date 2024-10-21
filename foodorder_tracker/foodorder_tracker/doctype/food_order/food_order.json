@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:\tFO-{YYYY}-{MM}-.{####}",
+ "creation": "2024-10-17 16:44:32.335560",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "employee",
+  "breakfast_status",
+  "lunch_status",
+  "dinner_status",
+  "column_break_riik",
+  "order_date",
+  "fine_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "label": "Employee",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "breakfast_status",
+   "fieldtype": "Select",
+   "label": "Breakfast Status",
+   "options": "\nDelivered\nCanceled\nPending"
+  },
+  {
+   "fieldname": "lunch_status",
+   "fieldtype": "Select",
+   "label": "Lunch Status ",
+   "options": "\nDelivered\nCanceled\nPending"
+  },
+  {
+   "fieldname": "dinner_status",
+   "fieldtype": "Select",
+   "label": "Dinner Status ",
+   "options": "\nDelivered\nCanceled\nPending"
+  },
+  {
+   "fieldname": "column_break_riik",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "order_date",
+   "fieldtype": "Date",
+   "label": "Order Date "
+  },
+  {
+   "fieldname": "fine_amount",
+   "fieldtype": "Currency",
+   "label": "Fine Amount "
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-18 13:25:18.710586",
+ "modified_by": "Administrator",
+ "module": "Foodorder Tracker",
+ "name": "Food Order",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
